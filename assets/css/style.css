@@ -1,0 +1,47 @@
+:root{
+    --blue:#005587;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-blue{
+    background: var(--blue);
+}
+.text-color{
+    color: var(--blue);
+}
+#banner{
+    background: center/cover  no-repeat fixed url("../images/banner.webp");
+    min-height: 450px;
+    max-width: 100%;
+}
+#introduction-video{
+    margin: 100px auto;
+    max-width: 100%;
+}
+#photos{
+    background: center/cover no-repeat fixed url("../images/photos.avif") ;
+    min-height: 450px;
+}
+#our-videos {
+    margin: 90px auto 50px auto;
+}
+#dirt{
+    background: center/cover no-repeat fixed url("../images/dirt.webp");
+    min-height: 450px;
+    margin-top:40px;
+}
+#sneakers{
+    background: center/cover no-repeat fixed url("../images/sneakers.webp");
+    min-height: 450px;
+    margin-top:40px;
+}
+.separation{
+    border-bottom: 2px solid #fff;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
